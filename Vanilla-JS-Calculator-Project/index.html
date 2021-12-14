@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "A simple Javascript  calculator">
+        <meta name = "viewport" content = "width = device-width initial-scale = 1.0">
+        <link rel= "stylesheet" type = "text/css" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bellefair&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id = "container" data-tilt data-tilt-max = '10' data-tilt-speed = "1000" data-tilt-perspective="500" data-tilt-reverse = "true">
+            <div id = 'displaySection'>
+                
+                <div id = "resultsPane">
+
+                </div>
+
+                <br/>
+                <div class = "clr"></div>
+                <br/>
+
+                <div id = "calculationPane">
+                    <p id = 'calc'></p>
+                </div>
+
+            </div>
+
+
+            <div class = "buttonDivs">
+                <button class = "buttons" id = "divisionOperator" value = "numberKey">/</button>
+                <button class = "buttons" id = "multiplicationOperator" value = "numberKey">*</button>
+                <button class = "buttons" id = "additionOperator" value = "numberKey">+</button>
+                <button class = "buttons" id = "minusOperator" value = "numberKey">-</button>
+            </div>
+            <div class = "buttonDivs">
+                <button class = "buttons" value = "numberKey">1</button>
+                <button class = "buttons" value = "numberKey">2</button>
+                <button class = "buttons" value = "numberKey">3</button>
+                <button class = "buttons" value = "numberKey">4</button>
+            </div>
+            <div class = "buttonDivs">
+                <button class = "buttons" value = "numberKey">5</button>
+                <button class = "buttons" value = "numberKey">6</button>
+                <button class = "buttons" value = "numberKey">7</button>
+                <button class = "buttons" value = "numberKey">8</button>
+            </div>
+            <div class = "buttonDivs">
+                <button class = "buttons" value = "numberKey">9</button>
+                <button class = "buttons" value = "numberKey">0</button>
+                <button class = "buttons" value = "numberKey">00</button>
+                <button class = "buttons" value = "numberKey">**</button>
+            </div>
+            <div class = "buttonDivs">
+                <button class = "buttons" id = "equalsOperator">=</button>
+                <button class = "buttons" id = "deleteOperator">DEL</button>
+                <button class = "buttons" id = "clearAllOperator">AC</button>
+            </div>
+        <script src = "script.js" type = "text/javascript"></script>
+        <!--<script src = "vanilla-tilt.js" type = "text/javascript"></script>-->
+            VanillaTilt.init(document.querySelector("#container"),{
+                max: 25,
+                speed, 400
+            )}
+    </body>
+</html>

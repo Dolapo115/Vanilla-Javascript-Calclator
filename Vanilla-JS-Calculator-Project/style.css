@@ -1,0 +1,381 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'bakbak one', cursive, sans-serif;
+}
+
+html{
+    background: url('e4e2951bf915a11f48b9fa0bdcd48f3a.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+body{
+    height: 100vh;
+}
+
+#container{
+    width: 33%;
+    height:90vh;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 50px auto;
+    /* border: 0.2px black solid; */
+    border-radius: 15px;
+    padding-top: 3%;
+    /*background: inherit;*/
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 5px 5px 95px black;
+    /*box-shadow: -3px 3px black;*/
+}
+
+#displaySection{
+    width: 87%;
+    height:20vh;
+    background: rgba(0, 0, 0, 0.3);
+    border: white 1px solid;
+    border-radius: 7px;
+    position: relative;
+    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -1px 1px 10px inset black;
+}
+
+#resultsPane{
+    width: 95%;
+    height:8vh;
+    /*background: none;
+    border: white 1px solid;*/
+    border-radius: 7px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    top: 5px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+
+#calculationPane{
+    width: 95%;
+    height:8vh;
+    background: none;
+    position: relative;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    bottom: 20px;
+    text-align: right;
+    color: white;
+}
+
+.buttonDivs{
+    width: 90%;
+    height:7.5vh;
+    background: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 25px;
+    flex-direction: row;
+    opacity: 100%;
+    /*border:1px solid white;*/
+}
+
+.buttons{
+    width: 25%;
+    background: none;
+    border: rgba(255, 255, 255, 0.0) 1px solid;
+    /*border-radius: 7px;*/
+    color: white;
+    font-weight: 1000;
+    font-size: 15px;
+    /*transform: translateZ(20px);*/
+    cursor: pointer;
+    opacity: 100%;
+}
+
+#equalsOperator{
+    width: 40%;
+    border: rgba(255, 255, 255, 1) solid 2px;
+    border-radius: 10px;
+}
+
+.buttons:hover{
+    background-color:rgba(241, 223, 248, 0.2);
+    border: rgba(255, 255, 255, 0.4) 1px solid;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px inset rgb(110, 109, 109);
+}
+
+.buttons:click{
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'bakbak one', cursive, sans-serif;
+    }
+    
+    html{
+        background: url('e4e2951bf915a11f48b9fa0bdcd48f3a.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    
+    body{
+        height: 100vh;
+    }
+    
+    #container{
+        width: 60%;
+        height:90vh;
+        background: rgba(0, 0, 0, 0.8);
+        margin: 50px auto;
+        /* border: 0.2px black solid; */
+        border-radius: 15px;
+        padding-top: 3%;
+        /*background: inherit;*/
+        /* backdrop-filter: blur(20px); */
+        box-shadow: 5px 5px 95px black;
+        /*box-shadow: -3px 3px black;*/
+    }
+    
+    #displaySection{
+        width: 87%;
+        height:20vh;
+        background: rgba(0, 0, 0, 0.3);
+        border: white 1px solid;
+        border-radius: 7px;
+        position: relative;
+        top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: -1px 1px 10px inset black;
+    }
+    
+    #resultsPane{
+        width: 95%;
+        height:8vh;
+        /*background: none;
+        border: white 1px solid;*/
+        border-radius: 7px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        top: 5px;
+        font-size: 30px;
+        text-align: right;
+        color: white;
+    }
+    
+    .clr{
+        clear: both;
+    }
+    
+    #calculationPane{
+        width: 95%;
+        height:8vh;
+        background: none;
+        position: relative;
+        font-size: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        bottom: 20px;
+        text-align: right;
+        color: white;
+    }
+    
+    .buttonDivs{
+        width: 90%;
+        height:7.5vh;
+        background: none;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 25px;
+        flex-direction: row;
+        opacity: 100%;
+        /*border:1px solid white;*/
+    }
+    
+    .buttons{
+        width: 25%;
+        background: none;
+        border: rgba(255, 255, 255, 0.0) 1px solid;
+        /*border-radius: 7px;*/
+        color: white;
+        font-weight: 1000;
+        font-size: 15px;
+        /*transform: translateZ(20px);*/
+        cursor: pointer;
+        opacity: 100%;
+    }
+    
+    #equalsOperator{
+        width: 40%;
+        border: rgba(255, 255, 255, 1) solid 2px;
+        border-radius: 10px;
+    }
+    
+    .buttons:hover{
+        background-color:rgba(241, 223, 248, 0.2);
+        border: rgba(255, 255, 255, 0.4) 1px solid;
+        font-size: 25px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px inset rgb(110, 109, 109);
+    }
+    
+    .buttons:click{
+        color: white;
+    }
+
+}
+@media only screen and (max-width: 481px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'bakbak one', cursive, sans-serif;
+    }
+    
+    html{
+        background: url('e4e2951bf915a11f48b9fa0bdcd48f3a.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    
+    body{
+        height: 100vh;
+    }
+    
+    #container{
+        width: 90%;
+        height:90vh;
+        background: rgba(0, 0, 0, 0.8);
+        margin: 50px auto;
+        /* border: 0.2px black solid; */
+        border-radius: 15px;
+        padding-top: 3%;
+        /*background: inherit;*/
+        /* backdrop-filter: blur(20px); */
+        box-shadow: 5px 5px 95px black;
+        /*box-shadow: -3px 3px black;*/
+    }
+    
+    #displaySection{
+        width: 90%;
+        height:30%;
+        background: rgba(0, 0, 0, 0.3);
+        border: white 1px solid;
+        border-radius: 7px;
+        position: relative;
+        top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: -1px 1px 10px inset black;
+    }
+    
+    #resultsPane{
+        width: 95%;
+        height:50%;
+        /*background: none;
+        border: white 1px solid;*/
+        border-radius: 7px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        top: 5px;
+        font-size: 30px;
+        text-align: right;
+        color: white;
+    }
+    
+    .clr{
+        clear: both;
+    }
+    
+    #calculationPane{
+        width: 95%;
+        height: 50%;
+        background: none;
+        position: relative;
+        font-size: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        bottom: 20px;
+        text-align: right;
+        color: white;
+    }
+    
+    .buttonDivs{
+        width: 90%;
+        height:15%;
+        background: none;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 25px;
+        flex-direction: row;
+        opacity: 100%;
+        /*border:1px solid white;*/
+    }
+    
+    .buttons{
+        width: 25%;
+        background: none;
+        border: rgba(255, 255, 255, 0.0) 1px solid;
+        /*border-radius: 7px;*/
+        color: white;
+        font-weight: 1000;
+        font-size: 15px;
+        /*transform: translateZ(20px);*/
+        cursor: pointer;
+        opacity: 100%;
+    }
+    
+    #equalsOperator{
+        width: 40%;
+        border: rgba(255, 255, 255, 1) solid 2px;
+        border-radius: 10px;
+    }
+    
+    .buttons:hover{
+        background-color:rgba(241, 223, 248, 0.2);
+        border: rgba(255, 255, 255, 0.4) 1px solid;
+        font-size: 25px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px inset rgb(110, 109, 109);
+    }
+    
+    .buttons:click{
+        color: white;
+    }
+
+}
